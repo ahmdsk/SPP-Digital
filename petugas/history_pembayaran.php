@@ -73,7 +73,7 @@ require_once '../Database.php';
                 <td><?= $data['tahun_dibayar'] ?></td>
                 <td>Rp <?= number_format($data['jumlah_bayar'], 0) ?></td>
                 <td>
-                  <a class="btn btn-sm btn-success" href="cetak/history.php?id=<?= $data['id_pembayaran'] ?>"><i class="fas fa-print"></i></a>
+                  <a class="btn btn-sm btn-success" href="print?id=<?= $data['id_pembayaran'] ?>"><i class="fas fa-print"></i></a>
                 </td>
               </tr>
             <?php endwhile; ?>
