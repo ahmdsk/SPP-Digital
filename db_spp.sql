@@ -120,7 +120,7 @@ CREATE TABLE `petugas` (
 --
 
 INSERT INTO `petugas` (`id_petugas`, `email`, `password`, `nama_petugas`, `level`) VALUES
-(3, 'admin@admin.com', '$2y$10$eQCH/UNNjrgSIDaMTRjZX.pDpc5IZy2K3aZCuVd1Y9SEsL5W5w93W', 'Super Admin', 'admin'),
+(3, 'admin@admin.com', '$2y$10$rTHJdmyIIk9FTZCqLx8lROowud57P92Ben7xhsMWbHyVSGa4cRHgW', 'Super Admin', 'admin'),
 (5, 'ahmad@ui.com', '$2y$10$XkvIPpMSnsnX2XDRlZWdu.jm6q33vQ/GwNkV.QgrI/649E2QjEg3q', 'Ahmad', 'petugas'),
 (6, 'anggun.cans@gmail.com', '$2y$10$gcXO7go66ETpkjWtjnPd7.J75fGGxSxeGIYXRGQqECT2b01RRGbEC', 'Anggun Saputri', 'admin');
 
